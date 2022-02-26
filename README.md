@@ -1,2 +1,8 @@
-# kickstarter-analysis
-Performing analysis on Kickstarter data to uncover trends
+# Kickstarter-Analysis
+Performing an in-depth analysis on Kickstarter data to uncover certain trends through Excel
+## Project Overview
+#### Several thousands of crowdfunding projects and their data were presented within the original kickstarter file under multiple different categories, such as fundraising goal, outcome, deadline, etc.  For this specific challenge, the focus was Louise and her play _Fever_.  _Fever_ was very close to reaching its fundraising goal in the amount of time given, but Louise wanted a deeper look into the other campaigns and how they compared to hers in relation to launch dates and funding goals. A thorough analysis was done to visualize outcomes based on launch dates and funding goals of all the crowdfunding projects given in order to give Louise a thorough analysis of how the other campaigns compared to _Fever_.
+## Analysis and Challenges
+### Analysis Based on Launch Dates
+#### In order to create an analysis based on launch dates, campaigns were filtered by their following outcomes- "successful," "failed," or "canceled".  A column was created in the original kickstarter sheet to retreive the years in which each campaign was launched using the YEAR() function.  To observe the relationship between outcomes and launch date, a pivot table was created by filtering out the parent category (film & video, journalism, music, etc.) and years.  The parent category was filtered to "theater," as all that was going to be analyzed were plays, to Louise's request.  The dates were changed to months in order to create a better visual and grouping of the data.  Columns of canceled, failed, and successful were added to the pivot table as well as a grand total column.  
+#### 
