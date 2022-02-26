@@ -5,4 +5,4 @@ Performing an in-depth analysis on Kickstarter data to uncover certain trends th
 ## Analysis and Challenges
 ### Analysis Based on Launch Dates
 #### In order to create an analysis based on launch dates, campaigns were filtered by their following outcomes- "successful," "failed," or "canceled".  A column was created in the original kickstarter sheet to retreive the years in which each campaign was launched using the YEAR() function.  To observe the relationship between outcomes and launch date, a pivot table was created by filtering out the parent category (film & video, journalism, music, etc.) and years.  The parent category was filtered to "theater," as all that was going to be analyzed were plays, to Louise's request.  The dates were changed to months in order to create a better visual and grouping of the data.  Columns of canceled, failed, and successful were added to the pivot table as well as a grand total column.  
-#### 
+#### <img width="402" alt="Outcomes_Based_on_Launch_Dates" src="https://user-images.githubusercontent.com/99656224/155862055-bbff877b-4463-47c2-8b9a-561421b6e14a.png">
